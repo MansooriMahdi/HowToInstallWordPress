@@ -6,11 +6,11 @@
 \
 **2.Linux Server Installation Step**\
 **2.1 Allocated Resource:**\
-■ **VM Name:** LABNIX\
-■ **HDD:** (2GB, 30GB, 50GB)\
-■ **RAM:** 2GB\
-■ **OS:** Ubuntu Server 22.04.1 x64\
-■ **Network:** Bridged\
+<span style="color:DarkCyan">■</span> **VM Name:** LABNIX\
+<span style="color:DarkCyan">■</span> **HDD:** (2GB, 30GB, 50GB)\
+<span style="color:DarkCyan">■</span> **RAM:** 2GB\
+<span style="color:DarkCyan">■</span> **OS:** Ubuntu Server 22.04.1 x64\
+<span style="color:DarkCyan">■</span> **Network:** Bridged\
 \
 **2.2 Installation Screen shots:**\
  ![image](images/hddlayout.jpg)
@@ -20,10 +20,10 @@
 \
 **2.4 Hardening**\
 **2.4.1 Lynis running...**\
-■ 238 Test performed. Hardening index: 60\
-■ Applied Control: BANN-7126, BANN-7130, AUTH-9262, PKGS-7370,PKGS-7394, ACCT-9626, FINT-4350, SSH-7408, MAIL-8818, DEB-0880\ 
-■ Installed software in this step: ClamAV, chkrootkit, auditd\
-■ Other action: Disabling USB storage on server\
+<span style="color:DarkCyan">■</span> 238 Test performed. Hardening index: 60\
+<span style="color:DarkCyan">■</span> Applied Control: BANN-7126, BANN-7130, AUTH-9262, PKGS-7370,PKGS-7394, ACCT-9626, FINT-4350, SSH-7408, MAIL-8818, DEB-0880 
+<span style="color:DarkCyan">■</span> Installed software in this step: ClamAV, chkrootkit, auditd\
+<span style="color:DarkCyan">■</span> Other action: Disabling USB storage on server\
 \
 **2.4.2 Result**\
 ![image](images/lynis77.png)\
@@ -63,10 +63,10 @@ mysql_secure_installation
 ```
 
 **3.3.1 Securing MariaDB:**\
-■ Change root password\
-■ Remove ananymous users\
-■ Disallow remotly login\
-■ Remove test databases and access to it\
+<span style="color:DarkCyan">■</span> Change root password\
+<span style="color:DarkCyan">■</span> Remove ananymous users\
+<span style="color:DarkCyan">■</span> Disallow remotly login\
+<span style="color:DarkCyan">■</span> Remove test databases and access to it\
 
 **3.4 Install PHP**
 ```
