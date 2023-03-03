@@ -21,7 +21,7 @@
 **2.4 Hardening**\
 **2.4.1 Lynis running...**\
 <span style="color:DarkCyan">■</span> 238 Test performed. Hardening index: 60\
-<span style="color:DarkCyan">■</span> Applied Control: BANN-7126, BANN-7130, AUTH-9262, PKGS-7370,PKGS-7394, ACCT-9626, FINT-4350, SSH-7408, MAIL-8818, DEB-0880 
+<span style="color:DarkCyan">■</span> Applied Control: BANN-7126, BANN-7130, AUTH-9262, PKGS-7370,PKGS-7394, ACCT-9626, FINT-4350, SSH-7408, MAIL-8818, DEB-0880\
 <span style="color:DarkCyan">■</span> Installed software in this step: ClamAV, chkrootkit, auditd\
 <span style="color:DarkCyan">■</span> Other action: Disabling USB storage on server\
 \
