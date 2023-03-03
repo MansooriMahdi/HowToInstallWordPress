@@ -1,21 +1,17 @@
-**1.TEST LAB Spec.**    
+**1.TEST LAB Spec.**\
+**HOST OS:** Ubuntu 22.04 Desktop x64\
+**HDD:** SSD\
+**RAM:** 8GB\
+**Virtualization Platform:** VirtualBox 6.1\
 
-**HOST OS:** Ubuntu 22.04 Desktop x64 
-
-**HDD:** SSD 
-
-**RAM:** 8GB 
-
-**Virtualization Platform:** VirtualBox 6.1 
-
-**2.Linux Server Installation Step**
-**2.1 Allocated Resource:** 
-■ **VM Name:** LABNIX 
-■ **HDD:** (2GB, 30GB, 50GB) 
-■ **RAM:** 2GB 
-■ **OS:** Ubuntu Server 22.04.1 x64 
-■ **Network:** Bridged 
-
+**2.Linux Server Installation Step**\
+**2.1 Allocated Resource:**\
+■ **VM Name:** LABNIX\
+■ **HDD:** (2GB, 30GB, 50GB)\
+■ **RAM:** 2GB\
+■ **OS:** Ubuntu Server 22.04.1 x64\
+■ **Network:** Bridged\
+\
 **2.2 Installation Screen shots:** 
  ![image](images/hddlayout.jpg)
 
