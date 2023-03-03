@@ -1,7 +1,11 @@
-**1.TEST LAB Spec.**
+**1.TEST LAB Spec.**    
+
 **HOST OS:** Ubuntu 22.04 Desktop x64 
+
 **HDD:** SSD 
+
 **RAM:** 8GB 
+
 **Virtualization Platform:** VirtualBox 6.1 
 
 **2.Linux Server Installation Step**
