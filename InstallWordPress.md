@@ -22,12 +22,11 @@
 **2.4.1 Lynis running...**\
 ■ 238 Test performed. Hardening index: 60\
 ■ Applied Control: [BANN-7126](https://cisofy.com/lynis/controls/BANN-7126/), [BANN-7130](https://cisofy.com/lynis/controls/BANN-7130/), [AUTH-9262](https://cisofy.com/lynis/controls/AUTH-9262/), [PKGS-7370](https://cisofy.com/lynis/controls/PKGS-7370/),[PKGS-7394](https://cisofy.com/lynis/controls/PKGS-7394/), [ACCT-9626](https://cisofy.com/lynis/controls/ACCT-9626/), [FINT-4350](https://cisofy.com/lynis/controls/FINT-4350/), [SSH-7408](https://cisofy.com/lynis/controls/SSH-7408/), [MAIL-8818](https://cisofy.com/lynis/controls/MAIL-8818/), [DEB-0880](https://cisofy.com/lynis/controls/DEB-0880/)\
-■ Installed software in this step: ClamAV, chkrootkit, auditd\
+■ Installed software in this step: [ClamAV](http://www.clamav.net/), [chkrootkit](http://www.chkrootkit.org/), auditd\
 ■ Other action: Disabling USB storage on server\
 \
 **2.4.2 Result**\
 ![Final Lynis SCORE!!!](images/lynis77.png)\
-**<center>Final Score: 77</center>**\
 \
 **3. Install WordPress**\
 **3.1. Install and start nginx**
@@ -132,3 +131,4 @@ sudo rm /etc/nginx/sites-enabled/default
 systemctl restart nginx.service
 ```
 ![WordPress Final Result](images/wpressfinal.png)
+**Finish.**
