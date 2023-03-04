@@ -13,7 +13,7 @@
 ■ **Network:** Bridged\
 \
 **2.2 Installation Screen shots:**\
- ![image](images/hddlayout.jpg)
+ ![HDD Layout](images/hddlayout.jpg)
 
 **2.3 Updating Server**\
 64 packaged Installed\
@@ -21,12 +21,12 @@
 **2.4 Hardening**\
 **2.4.1 Lynis running...**\
 ■ 238 Test performed. Hardening index: 60\
-■ Applied Control: BANN-7126, BANN-7130, AUTH-9262, PKGS-7370,PKGS-7394, ACCT-9626, FINT-4350, SSH-7408, MAIL-8818, DEB-0880\
+■ Applied Control: [BANN-7126](https://cisofy.com/lynis/controls/BANN-7126/), [BANN-7130](https://cisofy.com/lynis/controls/BANN-7130/), [AUTH-9262](https://cisofy.com/lynis/controls/AUTH-9262/), [PKGS-7370](https://cisofy.com/lynis/controls/PKGS-7370/),[PKGS-7394](https://cisofy.com/lynis/controls/PKGS-7394/), [ACCT-9626](https://cisofy.com/lynis/controls/ACCT-9626/), [FINT-4350](https://cisofy.com/lynis/controls/FINT-4350/), [SSH-7408](https://cisofy.com/lynis/controls/SSH-7408/), [MAIL-8818](https://cisofy.com/lynis/controls/MAIL-8818/), [DEB-0880](https://cisofy.com/lynis/controls/DEB-0880/)\
 ■ Installed software in this step: ClamAV, chkrootkit, auditd\
 ■ Other action: Disabling USB storage on server\
 \
 **2.4.2 Result**\
-![image](images/lynis77.png)\
+![Final Lynis SCORE!!!](images/lynis77.png)\
 **<center>Final Score: 77</center>**\
 \
 **3. Install WordPress**\
@@ -101,7 +101,7 @@ sudo chmod -R 755 /var/www/html/wpress
 
 **3.7 Create NGINX Virtual Host for WordPress**
 ```
-sudo nano /etc/nginx/conf.d/wpress.conf 
+sudo nano /etc/nginx/conf.d/wpress.conf
 ```
 Adding below configuration: 
 ```
@@ -131,4 +131,4 @@ sudo rm /etc/nginx/sites-enabled/default
 ```
 systemctl restart nginx.service
 ```
-![image](images/wpressfinal.png)
+![WordPress Final Result](images/wpressfinal.png)
