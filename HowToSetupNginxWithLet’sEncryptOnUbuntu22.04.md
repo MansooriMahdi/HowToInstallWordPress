@@ -53,7 +53,7 @@ Now, execute the following command on command line to get free ssl/tls certifica
 sudo certbot --nginx -d example.com -d www.example.com
 ```
 
-### [Step 5: Enable Automatic Certificate Renewal] ###
+### Step 5: Enable Automatic Certificate Renewal ###
 Use the following command on the command line to create automatic renewal:
 
 ```
