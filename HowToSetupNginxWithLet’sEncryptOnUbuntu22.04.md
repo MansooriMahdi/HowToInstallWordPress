@@ -4,11 +4,11 @@ This tutorial will cover on how you can setup nginx with lets encrypt on ubuntu 
 > :bulb: **Tip:** Let’s Encrypt is a non-profit certificate authority run by Internet Security Research Group that provides X.509 certificates for Transport Layer Security encryption at no charge.
 
 Steps on How to Setup Nginx with Let’s Encrypt on Ubuntu 22.04:
-■ **[Step 1: Install Certbot]()**
-■ **[Step 2: Check Nginx Configuration]()**
-■ **[Step 3: Allowing HTTPS Through the Firewall]()**
-■ **[Step 4: Get Free SSL/TLS Certificate]()**
-■ **[Step 5: Enable Automatic Certificate Renewal]()**
+■ **Step 1: Install Certbot**\
+■ **Step 2: Check Nginx Configuration**\
+■ **Step 3: Allowing HTTPS Through the Firewall**\
+■ **Step 4: Get Free SSL/TLS Certificate**\
+■ **[Step 5: Enable Automatic Certificate Renewal](#step-5-enable-automatic-certificate-renewal)**
 
 ### Step 1: Install Certbot ###
 Firstly, We are going to install certbot. To install run the following command line.
@@ -18,7 +18,7 @@ sudo apt update
 sudo apt install certbot python3-certbot-nginx
 ```
 
-### Step 2: Check Nginx Configuration ###
+### [Step 2: Check Nginx Configuration] ###
 Run the following command on the command line to check that it is set up correctly.
 
 ```
@@ -53,7 +53,7 @@ Now, execute the following command on command line to get free ssl/tls certifica
 sudo certbot --nginx -d example.com -d www.example.com
 ```
 
-### Step 5: Enable Automatic Certificate Renewal ###
+### [Step 5: Enable Automatic Certificate Renewal] ###
 Use the following command on the command line to create automatic renewal:
 
 ```
