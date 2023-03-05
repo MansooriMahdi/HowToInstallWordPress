@@ -1,7 +1,7 @@
 ![How to Enable NGINX Gzip Compression](images/gzip-compression-nginx.jpg)\
 **GZIP** compression allows NGINX server to compress data before sending it to client browser. This reduces data bandwidth, improves website speed and saves server costs. Here are the steps to enable NGINX GZip compression.
 
-**How to Enable NGINX Gzip Compression**
+### How to Enable NGINX Gzip Compression ###
 
 **1 Open NGINX Configuration file**
 Open terminal and run the following command to open NGINX server configuration file.

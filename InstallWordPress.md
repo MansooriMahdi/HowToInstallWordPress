@@ -1,3 +1,4 @@
+### Install WordPress ###
 **1.TEST LAB Spec.**\
 **HOST OS:** Ubuntu 22.04 Desktop x64\
 **HDD:** SSD\

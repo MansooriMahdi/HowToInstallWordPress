@@ -1,6 +1,6 @@
 ![Hide Your NGINX Server Version](images/hidenginversion.jpg)
 
-**Hide Your NGINX Server Version**
+### Hide Your NGINX Server Version ###
 Banner grabbing is the act of scanning websites to find server information including services and open ports. This technique is used during vulnerability assessments. Hiding your NGINX server version from scanning tools makes it harder for hackers to know what vulnerabilities can be exploited on your server.
 
 **1. View and Hide NGINX Server Header Information**

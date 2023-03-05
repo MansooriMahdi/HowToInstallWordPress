@@ -1,4 +1,4 @@
-**How to Setup Nginx with Let’s Encrypt on Ubuntu 22.04**
+### How to Setup Nginx with Let’s Encrypt on Ubuntu 22.04 ###
 This tutorial will cover on how you can setup nginx with lets encrypt on ubuntu 20.04.
 
 > :bulb: **Tip:** Let’s Encrypt is a non-profit certificate authority run by Internet Security Research Group that provides X.509 certificates for Transport Layer Security encryption at no charge.
