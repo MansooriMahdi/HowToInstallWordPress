@@ -20,7 +20,10 @@ sudo ufw allow 'Nginx Full'
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 ```
-**1.4 Enabling UFW
+**1.4 Allow IP range to connect port 3306**
+sudo ufw allow from 192.168.1.0/24 to any port 3306
+
+**1.5 Enabling UFW**
 ```
 sudo ufw enable
 ```
