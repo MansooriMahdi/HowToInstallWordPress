@@ -1,5 +1,5 @@
 ###How to get fullbackup(files+db) from wordpress###
-This script generate a full backup of your wordpress site
+**1. Script for generating a full backup of your wordpress site**
 
 ```
 #!/bin/bash
@@ -35,3 +35,6 @@ gzip -9 $BACKUP_DIR/$FILE
 # Delete files older than 10 days #
 find $BACKUP_DIR/*.gz -mtime +10 -exec rm {} \;
 ```
+
+**2. rsync command to copy new backup from remote server to local system**
+rsync -chavzP -e "ssh -p number" user@ServerOrIP.ir:/remote/path/to/copy/ /local/path/
